@@ -1,0 +1,60 @@
+body {
+  font-family: "Fragment Mono", monospace;
+  padding-top: 20px;
+}
+
+form {
+  display: inline-block;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  color: #113f67;
+}
+
+.weather-app {
+  border: 2px solid #e7eaf6;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #e7eaf6;
+  border-radius: 1px solid #e7eaf6;
+  color: #113f67;
+}
+
+.current-location {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #113f67;
+  border-radius: 1px solid #113f67;
+  color: #e7eaf6;
+  display: inline-block;
+}
+
+.current-weather {
+  font-size: 30px;
+  text-align: justify;
+  color: #113f67;
+}
+
+.current-sun {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-size: 100px;
+}
+
+.col-2 {
+  text-align: center;
+  color: #38598b;
+}
+
+.image {
+  font-size: 40px;
+}
