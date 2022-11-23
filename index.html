@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/8286d79049.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form id="search-bar">
+          <input
+            id="search-city"
+            class="city"
+            type="text"
+            placeholder="Search City"
+          />
+          <input type="submit" class="search" value="Search" />
+        </form>
+        <button class="current-location">Current Location</button>
+        <br />
+        <div class="current-weather">
+          <div class="row">
+            <div class="col-6">
+              <h3 class="current-city">New York</h3>
+              <p class="current-date-time">Thursday 11/10</p>
+              <p class="current-temp">Currently 65°F</p>
+            </div>
+            <div class="col-6">
+              <i class="fa-regular fa-sun current-sun"></i>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            Friday 11/11 68°F <br />
+            <i class="fa-solid fa-cloud-rain image"></i>
+          </div>
+          <div class="col-2">
+            Saturday 11/12 70°F <br />
+            <i class="fa-solid fa-cloud-sun-rain image"></i>
+          </div>
+          <div class="col-2">
+            Sunday 11/13 52°F <br />
+            <i class="fa-solid fa-cloud-sun image"></i>
+          </div>
+          <div class="col-2">
+            Monday 11/14 48°F <br />
+            <i class="fa-regular fa-sun image"></i>
+          </div>
+          <div class="col-2">
+            Tuesday 11/15 46°F <br />
+            <i class="fa-solid fa-cloud-sun image"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
