@@ -13,6 +13,10 @@ h3 {
   color: #113f67;
 }
 
+a {
+  color: #113f67;
+}
+
 .weather-app {
   border: 2px solid #e7eaf6;
   padding-left: 20px;
@@ -57,4 +61,8 @@ h3 {
 
 .image {
   font-size: 40px;
+}
+
+.source-code-link {
+  text-align: center;
 }
